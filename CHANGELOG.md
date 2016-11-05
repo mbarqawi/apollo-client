@@ -7,6 +7,7 @@ Expect active development and potentially significant breaking changes in the `0
 - Create and expose the `MutationOptions` [PR #866]
 (https://github.com/apollostack/apollo-client/pull/866)
 - Expose `SubscriptionOptions` [PR #868](https://github.com/apollostack/apollo-client/pull/868)
+- Prevent Redux from crashing when an uncatched apollo error is raised in an Apollo reducer. [PR #874](https://github.com/apollostack/apollo-client/pull/874)
 
 ### v0.5.0
 - Add a `createdBatchingNetworkInterface` function and export it.
